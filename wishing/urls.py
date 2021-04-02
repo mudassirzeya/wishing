@@ -7,7 +7,7 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('wishing/', views.wishing_card, name='wishing'),
+    path('', views.wishing_card, name='wishing'),
     path('wishing/<int:pk>/', views.wishing_card, name='wishing'),
     path('create/', views.create_card, name='create'),
 ]
