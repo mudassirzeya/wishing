@@ -6,4 +6,4 @@ class Createform(ModelForm):
     class Meta:
         model = Create_card
         fields = '__all__'
-        exclude = ['user']
+        exclude = ['user', 'random_str']
