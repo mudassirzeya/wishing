@@ -26,7 +26,7 @@ SECRET_KEY = '!r7t=k)5ao3t1hy0n^@rzpdf+omxau)(drriwwa5(al4rs#y0a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://mubarakbaad.herokuapp.com/']
+ALLOWED_HOSTS = []
 
 
 # Application definition
